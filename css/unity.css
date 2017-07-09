@@ -91,6 +91,14 @@
   padding-top: 50px;
 }
 
+.card-outline-success {
+  margin-left: 50px;
+}
+
+.card-footer {
+  margin-left: 50px;
+}
+
 /*--- FontAwesome Enhancement ---*/
 * > .fa.fa-hover-show,
 *:hover > .fa.fa-hover-hidden {
