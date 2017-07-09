@@ -1,0 +1,17 @@
+#img_container {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+
+}
+
+.button {
+    position:absolute;
+    top:334px;
+    left:538px;
+    width:80px;
+    height:40px;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
