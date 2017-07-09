@@ -50,24 +50,40 @@
         <div class="card-deck sect1 w-100">
           <div class="card">
             <div class="card-block">
-              <h3 class="card-title">match1Name</h3>
-              <p class="card-text">Interests</p>
+              <h3 class="card-title">Michelle</h3>
+              <p class="card-text" >Interests</p>
+              <ul id="matchA"></ul>
 
             </div>
 
           </div>
           <div class="card">
             <div class="card-block">
-              <h3 class="card-title">match2Name</h3>
-              <p class="card-text">Interests</p>
+              <h3 class="card-title">Maria</h3>
+              <p class="card-text" >Interests</p>
+              <ul id="matchB">
+              <li>Technology</li>
+              <li>New Technology</li>
+              <li>Mobile Technology</li>
+              <li>Computer programming</li>
+              </ul>
+
 
             </div>
 
           </div>
           <div class="card">
             <div class="card-block">
-              <h3 class="card-title">match3Name</h3>
-              <p class="card-text">Interests</p>
+              <h3 class="card-title">Bianca</h3>
+              <p class="card-text" >Interests</p>
+              <ul id="matchC">
+                <li>Web Technology</li>
+                <li>New Technology</li>
+                <li>Software Development</li>
+                <li>Mobile Technology</li>
+
+              </ul>
+
 
             </div>
 
@@ -101,6 +117,692 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
       <script src="https://use.fontawesome.com/acb4385beb.js"></script>
+
+
+
+<script>
+
+var pioneer =[
+{
+"urlkey": "french",
+"name": "French Language",
+"id": 185
+},
+{
+"urlkey": "language",
+"name": "Language & Culture",
+"id": 10454
+},
+{
+"urlkey": "linux",
+"name": "Linux",
+"id": 188
+},
+{
+"urlkey": "opensource",
+"name": "Open Source",
+"id": 563
+},
+{
+"urlkey": "sysadmin",
+"name": "System Administration",
+"id": 2109
+},
+{
+"urlkey": "cissp",
+"name": "CISSP",
+"id": 3502
+},
+{
+"urlkey": "cisa",
+"name": "CISA",
+"id": 8318
+},
+{
+"urlkey": "virtualization",
+"name": "Virtualization",
+"id": 20479
+},
+{
+"urlkey": "web",
+"name": "Web Technology",
+"id": 10209
+},
+{
+"urlkey": "coffee",
+"name": "Coffee",
+"id": 235
+},
+{
+"urlkey": "technology",
+"name": "Technology",
+"id": 10579
+},
+{
+"urlkey": "adults-taking-care-of-aging-parents",
+"name": "Adults Taking Care of Aging Parents",
+"id": 96646
+},
+{
+"urlkey": "python",
+"name": "Python",
+"id": 1064
+},
+{
+"urlkey": "newtech",
+"name": "New Technology",
+"id": 9696
+},
+{
+"urlkey": "projectmgmt",
+"name": "Project Management",
+"id": 3438
+},
+{
+"urlkey": "itil-itsm",
+"name": "ITIL ITSM",
+"id": 46813
+},
+{
+"urlkey": "ethical-hacking",
+"name": "Ethical Hacking",
+"id": 60447
+},
+{
+"urlkey": "metasploit",
+"name": "Metasploit",
+"id": 306561
+},
+{
+"urlkey": "learn-python-the-hard-way",
+"name": "Learn Python The Hard Way",
+"id": 765532
+},
+{
+"urlkey": "softwaredev",
+"name": "Software Development",
+"id": 3833
+},
+{
+"urlkey": "mobile-technology",
+"name": "Mobile Technology",
+"id": 16216
+},
+{
+"urlkey": "mobile-development",
+"name": "Mobile Development",
+"id": 21441
+},
+{
+"urlkey": "computer-programming",
+"name": "Computer programming",
+"id": 48471
+},
+{
+"urlkey": "devops",
+"name": "DevOps",
+"id": 87614
+},
+{
+"urlkey": "witi",
+"name": "Women in Technology",
+"id": 10296
+},
+{
+"urlkey": "web-security",
+"name": "Web Security",
+"id": 15471
+},
+{
+"urlkey": "network-security",
+"name": "Network Security",
+"id": 15472
+},
+{
+"urlkey": "hacking",
+"name": "Hacking",
+"id": 21123
+},
+{
+"urlkey": "information-security",
+"name": "Information Security",
+"id": 32743
+},
+{
+"urlkey": "computer-security",
+"name": "Computer Security",
+"id": 124668
+},
+{
+"urlkey": "toastmasters",
+"name": "Toastmasters",
+"id": 3307
+},
+{
+"urlkey": "prodev",
+"name": "Professional Development",
+"id": 3880
+},
+{
+"urlkey": "publicspeaking",
+"name": "Public Speaking",
+"id": 9300
+},
+{
+"urlkey": "leadership",
+"name": "Leadership",
+"id": 15121
+},
+{
+"urlkey": "professional-networking",
+"name": "Professional Networking",
+"id": 15720
+},
+{
+"urlkey": "presentations",
+"name": "Presentations",
+"id": 16223
+},
+{
+"urlkey": "communication",
+"name": "Communication",
+"id": 16225
+},
+{
+"urlkey": "personal-development",
+"name": "Personal Development",
+"id": 16468
+},
+{
+"urlkey": "communication-skills",
+"name": "Communication Skills",
+"id": 20923
+},
+{
+"urlkey": "javascript",
+"name": "JavaScript",
+"id": 7029
+},
+{
+"urlkey": "javascript-applications",
+"name": "JavaScript Applications",
+"id": 964072
+},
+{
+"urlkey": "functional-programming-in-python",
+"name": "Functional Programming in Python",
+"id": 150644
+},
+{
+"urlkey": "open-source-python",
+"name": "Open Source Python",
+"id": 917262
+},
+{
+"urlkey": "web-development",
+"name": "Web Development",
+"id": 15582
+},
+{
+"urlkey": "women-programmers",
+"name": "Women Programmers",
+"id": 45181
+},
+{
+"urlkey": "girl-develop-it",
+"name": "Girl Develop It",
+"id": 358581
+},
+{
+"urlkey": "webdesign",
+"name": "Web Design",
+"id": 659
+},
+{
+"urlkey": "craftswap",
+"name": "Crafts",
+"id": 10099
+},
+{
+"urlkey": "programming-languages",
+"name": "Programming Languages",
+"id": 17628
+},
+{
+"urlkey": "big-data",
+"name": "Big Data",
+"id": 18062
+}
+]
+
+var ally1 = [
+{
+"urlkey": "movies",
+"name": "Watching Movies",
+"id": 1201
+},
+{
+"urlkey": "livemusic",
+"name": "Live Music",
+"id": 8652
+},
+{
+"urlkey": "mobile-technology",
+"name": "Mobile Technology",
+"id": 16216
+},
+{
+"urlkey": "computer-programming",
+"name": "Computer programming",
+"id": 48471
+},
+{
+"urlkey": "technology",
+"name": "Technology",
+"id": 10579
+},
+{
+"urlkey": "arduino",
+"name": "Arduino",
+"id": 39012
+},
+{
+"urlkey": "makers",
+"name": "Makers",
+"id": 43887
+},
+{
+"urlkey": "makerspaces",
+"name": "Makerspaces",
+"id": 101438
+},
+{
+"urlkey": "event-managers",
+"name": "Event Managers",
+"id": 19177
+},
+{
+"urlkey": "producers-production-managers",
+"name": "Producers Production Managers",
+"id": 70656
+},
+{
+"urlkey": "product-management",
+"name": "Product Management",
+"id": 93740
+},
+{
+"urlkey": "productdesign",
+"name": "Product Design",
+"id": 2993
+},
+{
+"urlkey": "newtech",
+"name": "New Technology",
+"id": 9696
+},
+{
+"urlkey": "user-experience",
+"name": "User Experience",
+"id": 19243
+},
+{
+"urlkey": "new-product-development-software-tech",
+"name": "New Product Development: Software & Tech",
+"id": 62946
+},
+{
+"urlkey": "technology-startups",
+"name": "Technology Startups",
+"id": 108403
+},
+{
+"urlkey": "hackers-and-makers",
+"name": "Hackers and Makers",
+"id": 1022192
+},
+{
+"urlkey": "live-streaming-broadcasting",
+"name": "Live Streaming/Broadcasting",
+"id": 1504510
+},
+{
+"urlkey": "podcasting",
+"name": "Podcasting",
+"id": 9899
+},
+{
+"urlkey": "watch-rugby",
+"name": "Watch Rugby",
+"id": 75732
+},
+{
+"urlkey": "welsh-expat",
+"name": "Welsh Expat",
+"id": 658982
+},
+{
+"urlkey": "entertain",
+"name": "Entertainment Industry",
+"id": 10269
+},
+{
+"urlkey": "vinyl-appreciation",
+"name": "Vinyl Appreciation",
+"id": 46046
+},
+{
+"urlkey": "vinyl-records",
+"name": "Vinyl Records",
+"id": 16566
+},
+{
+"urlkey": "socially-responsible-business",
+"name": "Socially Responsible Business",
+"id": 78007
+}
+]
+
+var ally2=[
+{
+"urlkey": "startup-businesses",
+"name": "Startup Businesses",
+"id": 21681
+},
+{
+"urlkey": "edtech",
+"name": "Education & Technology",
+"id": 7203
+},
+{
+"urlkey": "webdesign",
+"name": "Web Design",
+"id": 659
+},
+{
+"urlkey": "softwaredev",
+"name": "Software Development",
+"id": 3833
+},
+{
+"urlkey": "computer-programming",
+"name": "Computer programming",
+"id": 48471
+},
+{
+"urlkey": "technology-startups",
+"name": "Technology Startups",
+"id": 108403
+},
+{
+"urlkey": "newtech",
+"name": "New Technology",
+"id": 9696
+},
+{
+"urlkey": "cloud-computing",
+"name": "Cloud Computing",
+"id": 15167
+},
+{
+"urlkey": "web",
+"name": "Web Technology",
+"id": 10209
+},
+{
+"urlkey": "data-analytics",
+"name": "Data Analytics",
+"id": 30928
+},
+{
+"urlkey": "machine-learning",
+"name": "Machine Learning",
+"id": 29971
+},
+{
+"urlkey": "art",
+"name": "Art",
+"id": 1502
+},
+{
+"urlkey": "beer",
+"name": "Beer",
+"id": 1475
+},
+{
+"urlkey": "gaming",
+"name": "Gaming",
+"id": 18071
+},
+{
+"urlkey": "virtual-reality",
+"name": "Virtual Reality",
+"id": 26062
+},
+{
+"urlkey": "augmented-mixed-reality",
+"name": "Augmented/Mixed Reality",
+"id": 1511212
+},
+{
+"urlkey": "ux-in-vr",
+"name": "Ux in VR",
+"id": 1510831
+},
+{
+"urlkey": "professional-networking",
+"name": "Professional Networking",
+"id": 15720
+}
+]
+
+var ally3 = [
+{
+"urlkey": "esl",
+"name": "English as a Second Language",
+"id": 182
+},
+{
+"urlkey": "digcam",
+"name": "Digital Photography",
+"id": 206
+},
+{
+"urlkey": "photo",
+"name": "Photography",
+"id": 223
+},
+{
+"urlkey": "art",
+"name": "Art",
+"id": 1502
+},
+{
+"urlkey": "softwaredev",
+"name": "Software Development",
+"id": 3833
+},
+{
+"urlkey": "livemusic",
+"name": "Live Music",
+"id": 8652
+},
+{
+"urlkey": "newtech",
+"name": "New Technology",
+"id": 9696
+},
+{
+"urlkey": "web",
+"name": "Web Technology",
+"id": 10209
+},
+{
+"urlkey": "businessintell",
+"name": "Business Intelligence",
+"id": 10538
+},
+{
+"urlkey": "mobile-technology",
+"name": "Mobile Technology",
+"id": 16216
+},
+{
+"urlkey": "small-business-marketing-strategy",
+"name": "Small Business Marketing Strategy",
+"id": 17325
+},
+{
+"urlkey": "business-strategy",
+"name": "Business Strategy",
+"id": 17635
+},
+{
+"urlkey": "draw",
+"name": "Drawing",
+"id": 20805
+},
+{
+"urlkey": "rock-music",
+"name": "Rock Music",
+"id": 21048
+},
+{
+"urlkey": "startup-businesses",
+"name": "Startup Businesses",
+"id": 21681
+},
+{
+"urlkey": "landscape-photography",
+"name": "Landscape Photography",
+"id": 22268
+},
+{
+"urlkey": "cultural-activities",
+"name": "Cultural Activities",
+"id": 23884
+},
+{
+"urlkey": "japanese-language",
+"name": "Japanese Language",
+"id": 25544
+},
+{
+"urlkey": "creative",
+"name": "Creativity",
+"id": 36229
+},
+{
+"urlkey": "film-photography",
+"name": "Film Photography",
+"id": 49953
+},
+{
+"urlkey": "culture-exchange",
+"name": "Culture Exchange",
+"id": 67622
+}
+]
+
+
+
+
+
+
+
+
+
+arrayPioneer = [];
+for (i=0;i<pioneer.length;i++){
+  arrayPioneer.push(pioneer[i].name)
+}
+
+
+arrayAlly1 =[];
+for(i=0;i<ally1.length;i++){
+  arrayAlly1.push(ally1[i].name);
+}
+
+arrayAlly2 =[];
+for(i=0;i<ally2.length;i++){
+  arrayAlly2.push(ally2[i].name);
+}
+
+
+
+arrayAlly3 =[];
+for(i=0;i<ally3.length;i++){
+  arrayAlly3.push(ally3[i].name);
+}
+
+
+function intersect(a, b) {
+    var t;
+    if (b.length > a.length) t = b, b = a, a = t; // indexOf to loop over shorter
+    return a.filter(function (e) {
+        return b.indexOf(e) > -1;
+    });
+}
+
+
+
+var matchA=intersect(arrayPioneer,arrayAlly1)
+var matchB=intersect(arrayPioneer,arrayAlly2)
+var matchC=intersect(arrayPioneer,arrayAlly3)
+
+totalArray= [matchA,matchB,matchC]
+
+totalArray.sort((a,b)=>{return b.length-a.length;})
+matchA=totalArray[0];
+matchB=totalArray[1];
+matchC=totalArray[2];
+
+
+
+
+
+
+
+// $("#matchA").html(matchA)
+// $("#matchB").html(matchB)
+// $("#matchC").html(matchC)
+
+
+
+ // jQuery.each( arr, function( i, val ) {
+ //   $( "#" + val ).text( "Mine is " + val + "." );
+
+ (function matchList (dataMatch){
+  dataMatch.forEach(function (topic){
+    $("#matchA").append("<li>"+topic+"</li>");
+  })
+ })(matchA)
+
+
+// (function matchListC (dataMatch){
+//   dataMatch.forEach(function (topic){
+//     $("#matchC").append("<li>"+topic+"</li>");
+//   })
+//  })(matchC)
+
+
+// (function matchListC (dataMatch){
+//   dataMatch.forEach(function (topic){
+//     $("#matchC").append("<li>"+topic+"</li>");
+//   })
+//  })(matchC)
+
+
+ // matchList(matchA)
+ // matchList(matchB)
+ // matchList(matchC)
+
+
+</script> 
+
+
+
+
 </body>
 
 </html>
