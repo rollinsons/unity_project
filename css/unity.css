@@ -99,6 +99,10 @@
   margin-left: 50px;
 }
 
+.onboard-btn {
+  padding-left: 50px;
+}
+
 /*--- FontAwesome Enhancement ---*/
 * > .fa.fa-hover-show,
 *:hover > .fa.fa-hover-hidden {
