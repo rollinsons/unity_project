@@ -507,6 +507,14 @@
         $('#groups').append(groups)
         $('#langs').append(navigator.language)
 
+        var interestStr = $('#interests').html()
+        var truncIntStr = interestStr.substring(0, interestStr.length - 2)
+        $('#interests').html(truncIntStr)
+
+        var groupStr = $('#groups').html()
+        var truncGroupStr = groupStr.substring(0, groupStr.length - 2)
+        $('#groups').html(truncGroupStr)
+
       </script>
 </body>
 
