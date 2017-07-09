@@ -9,6 +9,7 @@
   <!-- Bootstrap CSS -->
 <link href="https://fonts.googleapis.com/css?family=Work+Sans|Raleway" rel="stylesheet">
 <link rel="stylesheet" href="./css/unity.css">
+<link rel="stylesheet" href="./css/onboard.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -18,7 +19,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="justify-content-end">
-        <a class="navbar-brand" id="menu-text" href="./index.html">inUnity</a>
+        <a class="navbar-brand" id="menu-text" href="./index.html"><h1>inUnity</h1></a>
       </div>
       <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
         <ul class="navbar-nav ml-auto" id="nav-list">
@@ -28,95 +29,38 @@
         </ul>
       </div>
     </nav>
-<!--    <div class="container-fluid">
-      <div class="jumbotron">
-        <h1 class="display-3">inUnity</h1>
-        <p class="lead">Uniting pioneer women with local allies who can help them thrive in their new home.</p>
-        <hr class="my-4">
-      <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Connect with Meetup</a>
-  </p>
-</div>
--->
+
 <div class="container-fluid">
      <div class="d-flex flex-column hero hbox" id="about">
         <div class="p2 align-items-center">
-          <h1 class="display-6" id="hero-text-subtitle">Your inUnity Profile....
+          <h2 class="display-6" id="hero-text-subtitle">My Profile</h2>
         </div>
           <div class="p2 align-items-center">
-            <h3 id="hero-text-subtitle">This will be your inUnity profile, if you are happy with the details click to choose Pioneer or Ally below.</h3>
+            <h3 id="hero-text-subtitle">This will be your inUnity profile. If you are happy with the details, continue below.</h3>
           </div>
       </div>
 
-    <!--     <div class="card-block card-inverse sect1" id="portfolio">
-      <h3 class="card-title" id="sect-head-text">Hey You!</h3>
-    </div>
       <div class="card sect1">
         <div class="card-block">
           <ul class="profileData">
-          <li>Your name</li>
-          <li>City</li>
-          <li>State</li>
-          <li>Country</li>
-          <li>Hometown</li>
-          <li>Your Interests</li>
-          <li>Your Meetup Groups</li>
-          <li>Your languages</li>
-        <img  class="card-img-bottom img-responsive sect-image"  src="http://res.cloudinary.com/rollinson/image/upload/v1494972936/chugo-phone-3_xcranm.png"></img>
-      </ul> -->
-      <div class="row">
-      <div class="card card-outline-success mb-3 text-md-left w-75">
-        <div class="card-block">
-          <blockquote class="card-blockquote">
-          <p>jQueryDataYourName - firstName + initialLastName</p>
-          </blockquote>
-        </div>
+          <li id="name"><strong>Name:</strong> </li>
+          <li id="city"><strong>City:</strong> </li>
+          <li id="state"><strong>State:</strong> </li>
+          <li id="country"><strong>Country:</strong> </li>
+          <li id="interests"><strong>Your Interests:</strong> </li>
+          <li id="groups"><strong>Your Meetup Groups:</strong> </li>
+          <li id="langs"><strong>Your language:</strong> </li>
+          </ul>
       </div>
-      <div class="card card-outline-success mb-3 text-md-left w-75">
-        <div class="card-block">
-          <blockquote class="card-blockquote">
-          <p>jQueryData City + State + country</p>
-          </blockquote>
-        </div>
-      </div>
-      <div class="card card-outline-success mb-3 text-md-left w-75">
-        <div class="card-block">
-          <blockquote class="card-blockquote">
-          <p>jQueryData yourHometown</p>
-          </blockquote>
-        </div>
-      </div>
-      <div class="card card-outline-success mb-3 text-md-left w-75">
-        <div class="card-block">
-          <blockquote class="card-blockquote">
-          <p>jQueryData yourInterests</p>
-          </blockquote>
-        </div>
-      </div>
-      <div class="card card-outline-success mb-3 text-md-left w-75">
-        <div class="card-block">
-          <blockquote class="card-blockquote">
-          <p>jQueryData yourMeetupGroups</p>
-          </blockquote>
-        </div>
-      </div>
-      <div class="card card-outline-success mb-3 text-md-left w-75">
-        <div class="card-block">
-          <blockquote class="card-blockquote">
-          <p>jQueryData yourPreferredLanguage</p>
-          </blockquote>
-        </div>
-      </div>
-        </div>
-        <div class="row onboard-btn">
-          <a href="#" class="btn btn-success">Let's Go!</a>
+
+      <div class="card w-75">
+        <div class="card-footer">
+          <a href="matches.html" class="btn btn-success">Let's Go!</a>
           <a href="#" class="btn btn-secondary">Edit</a>
-          </div>
+        </div>
       </div>
     </div>
-    <!--         <div class="card-block sect2">
-      <h3 class="card-title" id="sect2-head-text">Footer Title</h3>
-    </div> -->
+
     <div class="row" id="contact">
       <div class="col-sm-6">
         <div class="card-block text-center footer_cont" id="footer-text" >
@@ -141,6 +85,437 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
       <script src="https://use.fontawesome.com/acb4385beb.js"></script>
+
+
+
+
+      <script>
+      var member = {
+        "id": 190427234,
+        "name": "Tiffany Lam",
+        "status": "active",
+        "joined": 1437881702000,
+        "city": "San Francisco",
+        "country": "us",
+        "localized_country_name": "USA",
+        "state": "CA",
+        "lat": 37.77,
+        "lon": -122.4,
+        "gender": "female",
+        "topics": [
+        {
+        "id": 182,
+        "name": "English as a Second Language",
+        "urlkey": "esl",
+        "lang": "en_US"
+        },
+        {
+        "id": 223,
+        "name": "Photography",
+        "urlkey": "photo",
+        "lang": "en_US"
+        },
+        {
+        "id": 1502,
+        "name": "Art",
+        "urlkey": "art",
+        "lang": "en_US"
+        },
+        {
+        "id": 3833,
+        "name": "Software Development",
+        "urlkey": "softwaredev",
+        "lang": "en_US"
+        },
+        {
+        "id": 8652,
+        "name": "Live Music",
+        "urlkey": "livemusic",
+        "lang": "en_US"
+        },
+        {
+        "id": 9696,
+        "name": "New Technology",
+        "urlkey": "newtech",
+        "lang": "en_US"
+        },
+        {
+        "id": 10209,
+        "name": "Web Technology",
+        "urlkey": "web",
+        "lang": "en_US"
+        },
+        {
+        "id": 10538,
+        "name": "Business Intelligence",
+        "urlkey": "businessintell",
+        "lang": "en_US"
+        },
+        {
+        "id": 16216,
+        "name": "Mobile Technology",
+        "urlkey": "mobile-technology",
+        "lang": "en_US"
+        },
+        {
+        "id": 17325,
+        "name": "Small Business Marketing Strategy",
+        "urlkey": "small-business-marketing-strategy",
+        "lang": "en_US"
+        },
+        {
+        "id": 17635,
+        "name": "Business Strategy",
+        "urlkey": "business-strategy",
+        "lang": "en_US"
+        },
+        {
+        "id": 20805,
+        "name": "Drawing",
+        "urlkey": "draw",
+        "lang": "en_US"
+        },
+        {
+        "id": 21048,
+        "name": "Rock Music",
+        "urlkey": "rock-music",
+        "lang": "en_US"
+        },
+        {
+        "id": 21681,
+        "name": "Startup Businesses",
+        "urlkey": "startup-businesses",
+        "lang": "en_US"
+        },
+        {
+        "id": 23884,
+        "name": "Cultural Activities",
+        "urlkey": "cultural-activities",
+        "lang": "en_US"
+        },
+        {
+        "id": 36229,
+        "name": "Creativity",
+        "urlkey": "creative",
+        "lang": "en_US"
+        },
+        {
+        "id": 49953,
+        "name": "Film Photography",
+        "urlkey": "film-photography",
+        "lang": "en_US"
+        },
+        {
+        "id": 67622,
+        "name": "Culture Exchange",
+        "urlkey": "culture-exchange",
+        "lang": "en_US"
+        }
+      ],
+      "memberships": {
+        "organizer": [
+        {
+        "status": "active",
+        "visited": 1499372072000,
+        "created": 1468465467000,
+        "updated": 1490121214000,
+        "role": "coorganizer",
+        "group": {
+        "id": 18833677,
+        "urlname": "Free-Code-Camp-SF",
+        "name": "Free Code Camp - Bay Area",
+        "who": "Campers",
+        "members": 1539,
+        "join_mode": "open"
+        }
+        }
+        ],
+        "member": [
+        {
+        "status": "active",
+        "visited": 1499381306000,
+        "created": 1456293759000,
+        "updated": 1456293759000,
+        "group": {
+        "id": 3250422,
+        "urlname": "Bay-Area-d3-User-Group",
+        "name": "Bay Area d3 User Group",
+        "who": "data drivers",
+        "members": 4810,
+        "join_mode": "open",
+        "key_photo": {
+        "id": 447896599,
+        "highres_link": "https://secure.meetupstatic.com/photos/event/d/d/1/7/highres_447896599.jpeg",
+        "photo_link": "https://secure.meetupstatic.com/photos/event/d/d/1/7/600_447896599.jpeg",
+        "thumb_link": "https://secure.meetupstatic.com/photos/event/d/d/1/7/thumb_447896599.jpeg",
+        "type": "event",
+        "base_url": "https://secure.meetupstatic.com"
+        }
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1499381041000,
+        "created": 1458169993000,
+        "updated": 1458169993000,
+        "group": {
+        "id": 1691571,
+        "urlname": "visualizemydata",
+        "name": "Data Visualization Group in the Bay Area",
+        "who": "Data Artists",
+        "members": 7809,
+        "join_mode": "open",
+        "key_photo": {
+        "id": 447209624,
+        "highres_link": "https://secure.meetupstatic.com/photos/event/7/3/b/8/highres_447209624.jpeg",
+        "photo_link": "https://secure.meetupstatic.com/photos/event/7/3/b/8/600_447209624.jpeg",
+        "thumb_link": "https://secure.meetupstatic.com/photos/event/7/3/b/8/thumb_447209624.jpeg",
+        "type": "event",
+        "base_url": "https://secure.meetupstatic.com"
+        }
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1499380725000,
+        "created": 1461737245000,
+        "updated": 1461737245000,
+        "group": {
+        "id": 1733753,
+        "urlname": "Node-js-Serverside-Javascripters-Club-SF",
+        "name": "Node.js Club SF",
+        "who": "Members",
+        "members": 4000,
+        "join_mode": "open",
+        "key_photo": {
+        "id": 231320642,
+        "highres_link": "https://secure.meetupstatic.com/photos/event/5/0/a/2/highres_231320642.jpeg",
+        "photo_link": "https://secure.meetupstatic.com/photos/event/5/0/a/2/600_231320642.jpeg",
+        "thumb_link": "https://secure.meetupstatic.com/photos/event/5/0/a/2/thumb_231320642.jpeg",
+        "type": "event",
+        "base_url": "https://secure.meetupstatic.com"
+        }
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1499380401000,
+        "created": 1484888725000,
+        "updated": 1484888725000,
+        "group": {
+        "id": 14344342,
+        "urlname": "ReactJS-San-Francisco",
+        "name": "ReactJS San Francisco Bay Area meetup",
+        "who": "Developers",
+        "members": 5005,
+        "join_mode": "open",
+        "key_photo": {
+        "id": 451184063,
+        "highres_link": "https://secure.meetupstatic.com/photos/event/a/c/1/f/highres_451184063.jpeg",
+        "photo_link": "https://secure.meetupstatic.com/photos/event/a/c/1/f/600_451184063.jpeg",
+        "thumb_link": "https://secure.meetupstatic.com/photos/event/a/c/1/f/thumb_451184063.jpeg",
+        "type": "event",
+        "base_url": "https://secure.meetupstatic.com"
+        }
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1499370055000,
+        "created": 1481826739000,
+        "updated": 1481826739000,
+        "group": {
+        "id": 16927002,
+        "urlname": "sfnode",
+        "name": "SFNode",
+        "who": "Node Users",
+        "members": 2738,
+        "join_mode": "open"
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1499237037000,
+        "created": 1439163378000,
+        "updated": 1439163484000,
+        "group": {
+        "id": 2252591,
+        "urlname": "Women-Who-Code-SF",
+        "name": "Women Who Code SF",
+        "who": "Coders",
+        "members": 11092,
+        "join_mode": "open"
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1498767662000,
+        "created": 1494365136000,
+        "updated": 1494365554000,
+        "group": {
+        "id": 12253772,
+        "urlname": "a11ybay",
+        "name": "Bay Area Accessibility and Inclusive Design",
+        "who": "Digital Accessibility Innovators",
+        "members": 1018,
+        "join_mode": "open"
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1498686084000,
+        "created": 1471543055000,
+        "updated": 1471543055000,
+        "group": {
+        "id": 1615633,
+        "urlname": "designersgeeks",
+        "name": "Designers + Geeks",
+        "who": "Designers + Geeks",
+        "members": 13255,
+        "join_mode": "open",
+        "key_photo": {
+        "id": 400947662,
+        "highres_link": "https://secure.meetupstatic.com/photos/event/6/c/0/e/highres_400947662.jpeg",
+        "photo_link": "https://secure.meetupstatic.com/photos/event/6/c/0/e/600_400947662.jpeg",
+        "thumb_link": "https://secure.meetupstatic.com/photos/event/6/c/0/e/thumb_400947662.jpeg",
+        "type": "event",
+        "base_url": "https://secure.meetupstatic.com"
+        }
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1498686062000,
+        "created": 1486685196000,
+        "updated": 1486685313000,
+        "group": {
+        "id": 18348071,
+        "urlname": "WriteSpeakCode-SFBay",
+        "name": "Write/Speak/Code SF & Bay Area",
+        "who": "Thought Leaders",
+        "members": 1013,
+        "join_mode": "open",
+        "key_photo": {
+        "id": 450692585,
+        "highres_link": "https://secure.meetupstatic.com/photos/event/7/f/4/9/highres_450692585.jpeg",
+        "photo_link": "https://secure.meetupstatic.com/photos/event/7/f/4/9/600_450692585.jpeg",
+        "thumb_link": "https://secure.meetupstatic.com/photos/event/7/f/4/9/thumb_450692585.jpeg",
+        "type": "event",
+        "base_url": "https://secure.meetupstatic.com"
+        }
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1498685870000,
+        "created": 1468737025000,
+        "updated": 1468737042000,
+        "group": {
+        "id": 15044572,
+        "urlname": "Women-Who-Code-East-Bay",
+        "name": "Women Who Code East Bay",
+        "who": "Coders",
+        "members": 1692,
+        "join_mode": "open"
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1498507131000,
+        "created": 1471543207000,
+        "updated": 1471543207000,
+        "group": {
+        "id": 18383094,
+        "urlname": "learn-to-code-san-francisco",
+        "name": "Learn to Code San Francisco",
+        "who": "Members",
+        "members": 4239,
+        "join_mode": "open",
+        "key_photo": {
+        "id": 451150380,
+        "highres_link": "https://secure.meetupstatic.com/photos/event/2/8/8/c/highres_451150380.jpeg",
+        "photo_link": "https://secure.meetupstatic.com/photos/event/2/8/8/c/600_451150380.jpeg",
+        "thumb_link": "https://secure.meetupstatic.com/photos/event/2/8/8/c/thumb_451150380.jpeg",
+        "type": "event",
+        "base_url": "https://secure.meetupstatic.com"
+        }
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1498506742000,
+        "created": 1489363661000,
+        "updated": 1489363661000,
+        "group": {
+        "id": 18444650,
+        "urlname": "jamstack-sf",
+        "name": "JAMstack San Francisco",
+        "who": "JAMsters",
+        "members": 737,
+        "join_mode": "open",
+        "key_photo": {
+        "id": 442990767,
+        "highres_link": "https://secure.meetupstatic.com/photos/event/2/a/0/f/highres_442990767.jpeg",
+        "photo_link": "https://secure.meetupstatic.com/photos/event/2/a/0/f/600_442990767.jpeg",
+        "thumb_link": "https://secure.meetupstatic.com/photos/event/2/a/0/f/thumb_442990767.jpeg",
+        "type": "event",
+        "base_url": "https://secure.meetupstatic.com"
+        }
+        }
+        },
+        {
+        "status": "active",
+        "visited": 1498505945000,
+        "created": 1494133563000,
+        "updated": 1494133563000,
+        "group": {
+        "id": 22919316,
+        "urlname": "Maven-Diversity-in-Tech-Women-Level-Up",
+        "name": "Diversity in Tech: Women Level Up",
+        "who": "Members",
+        "members": 214,
+        "join_mode": "open"
+        }
+        }
+      ]
+    }
+  }
+
+
+        var interests = member.topics.map(function(topicObj) {
+          return topicObj.name
+        })
+        .map(function(topicName) {
+          var str = ''
+          return str += `${topicName}, `
+        })
+
+        var groups = member.memberships.member.map(function(group) {
+          return group.group.name
+        })
+        .map(function(groupName) {
+          var str = ''
+          return str += `${groupName}, `
+        })
+
+
+        $('#name').append(`${member.name.split(' ')[0]} ${member.name.split(' ')[1][0]}`)
+        $('#city').append(member.city)
+        $('#state').append(member.state)
+        $('#country').append(member.localized_country_name)
+        $('#interests').append(interests)
+        $('#groups').append(groups)
+        $('#langs').append(navigator.language)
+
+        var interestStr = $('#interests').html()
+        var truncIntStr = interestStr.substring(0, interestStr.length - 2)
+        $('#interests').html(truncIntStr)
+
+        var groupStr = $('#groups').html()
+        var truncGroupStr = groupStr.substring(0, groupStr.length - 2)
+        $('#groups').html(truncGroupStr)
+
+      </script>
 </body>
 
 </html>
