@@ -1,0 +1,83 @@
+
+
+#menu-text {
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+#nav-list {
+      text-align: right;
+}
+
+#hero-text {
+    color: black;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+#hero-text-subtitle {
+    color: black;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+#sect-head-text {
+    color: black;
+    font-family: Raleway, sans-serif;
+}
+
+#sect2-head-text {
+    color: black;
+    font-family: Raleway; sans-serif;
+}
+
+.menu-top {
+  background-color: black;
+}
+.hero {
+    background-color: white;
+    height: 200px;
+}
+
+.sect1 {
+    background-color: blue;
+    padding-left: 50px;
+
+}
+
+.sect2 {
+    background-color: silver;
+    border-color: silver;
+
+}
+
+.hbox {
+    padding-top: 50px;
+    Padding-bottom:30px;
+}
+
+.sect-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.profileData {
+  font-size: 30px;
+}
+
+/*--- FontAwesome Enhancement ---*/
+* > .fa.fa-hover-show,
+*:hover > .fa.fa-hover-hidden {
+  display: none;
+}
+*:hover > .fa.fa-hover-show {
+  display: inline-block;
+}
+
+.footer_cont a,
+.footer_cont a:hover {
+  display: block;
+  text-decoration: none;
+}
