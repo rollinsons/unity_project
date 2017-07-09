@@ -1,4 +1,6 @@
-
+#jumbotron-text {
+    font-family: 'Raleway';
+}
 
 #menu-text {
     color: white;
@@ -33,6 +35,11 @@
     font-family: Raleway; sans-serif;
 }
 
+
+#footer-text {
+    font-family: 'Raleway';
+}
+
 .menu-top {
   background-color: black;
 }
@@ -42,19 +49,26 @@
 }
 
 .sect1 {
-    background-color: blue;
+    font-family: 'Raleway';
+    background-color: silver;
     padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
 }
 
 .sect2 {
     background-color: silver;
     border-color: silver;
+    padding-left: 50px;
+    padding-bottom: 25px;
 
 }
 
 .hbox {
     padding-top: 50px;
+    padding-left: 50px;
     Padding-bottom:30px;
 }
 
@@ -65,6 +79,16 @@
 
 .profileData {
   font-size: 30px;
+}
+
+.inbox-msg {
+  background-color: white;
+  border-color: gray;
+  border: 10px;
+  border
+}
+.ftr {
+  padding-top: 50px;
 }
 
 /*--- FontAwesome Enhancement ---*/
