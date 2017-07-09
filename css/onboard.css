@@ -1,0 +1,9 @@
+.profileData {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 16px;
+  width: 50%;
+}
